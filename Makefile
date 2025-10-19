@@ -4,7 +4,7 @@ CC = cc
 
 CFLAGS = -Wall -Werror -Wextra
 
-SRCS = specs/print_spec.c specs/print_char.c specs/print_str.c specs/print_digit.c specs/print_hex_up.c #ft_printf.c
+SRCS = specs/print_spec.c specs/print_char.c specs/print_str.c specs/print_ptr.c specs/print_digit.c specs/print_hex_up.c ft_printf.c
 
 OBJS = $(SRCS:.c=.o)
 
